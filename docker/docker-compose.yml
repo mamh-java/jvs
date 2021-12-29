@@ -4,8 +4,8 @@ services:
     build:
       context: .
     restart: always
-    container_name: registry.cn-chengdu.aliyuncs.com/jvs-tree/jvs-ui
-    image: registry.cn-chengdu.aliyuncs.com/jvs-tree/jvs-ui
+    container_name: jvs-ui
+    image: jvs-ui
     networks:
       - jvs_jvs
     external_links:
