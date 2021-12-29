@@ -1,6 +1,6 @@
 version: '3'
 services:
-  jvs-knowledge-ui:
+  jvs-ui:
     build:
       context: .
     restart: always
