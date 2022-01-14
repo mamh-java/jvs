@@ -59,7 +59,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         log.debug("用户名密码登录, 用户名: {}, 选择登录租户id: {}", username, TenantContextHolder.getTenantId());
         User user = this.getOne(Wrappers.<User>lambdaQuery().eq(User::getAccountName, username));
         if (ObjectUtil.isEmpty(user)) {
-            throw new BusinessException("用户不存在或密码错误");
+            //TODO 使用手机号和邮箱匹配 暂时可支持手机号匹配，默认密码123456
+            user = getOne(Wrappers.lambdaQuery(new User().setPhone(username)));
+            if (ObjectUtil.isEmpty(user)) {
+                throw new BusinessException("用户不存在或密码错误");
+            }
         }
         // 是否锁定
         if (user.getCancelFlag()) {
