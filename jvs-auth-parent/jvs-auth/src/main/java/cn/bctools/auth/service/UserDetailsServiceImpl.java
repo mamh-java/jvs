@@ -105,6 +105,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         //清楚请求多租户信息
         TenantContextHolder.clear();
         UserDto userDto = BeanCopyUtil.copy(info, UserDto.class);
+        if (ObjectNull.isNull(userDto.getAccountName())) {
+            userDto.setAccountName(info.getPhone());
+        }
         //查询用户扩展信息
         Map<String, Object> collect = userExtensionService.list(Wrappers.query(new UserExtension().setUserId(info.getId()))).stream().collect(Collectors.toMap(UserExtension::getType, UserExtension::getExtension));
         userDto.setExceptions(collect);
