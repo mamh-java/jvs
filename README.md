@@ -117,7 +117,7 @@ https://gitee.com/software-minister/jvs-docker-compose/blob/master/readme.md
 ### 版本说明：
 使用用途|费用模式|使用条件|授权时间
 -|-|-|-
-自用|免费|免费备案|永久
+个人学习|免费|免费备案|永久
 商用、二次开发|收费、代码交付|技术服务合同+商用备案|永久
 
 ### 商用费用说明：
