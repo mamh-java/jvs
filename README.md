@@ -1,18 +1,10 @@
 
 
-
-
 ## **项目介绍：**
 
-JVS是面向软件开发团队可以快速实现应用的基础开发框架，采用微服务分布式框架，提供丰富的基础功能，集成众多业务引擎，它灵活性强，界面化配置对开发者友好，底层容器化构建，集合持续化构建。
+- **JVS的核心目标：**让中小型开发团队过得轻松一点，优化开发团队人力成本高、交付效率低、质量不可控、周期不确定、基础技术投入不足、高端技术支持不够等
+- JVS是面向软件开发团队可以快速实现应用的基础开发框架，采用微服务分布式框架，提供丰富的基础功能，集成众多业务引擎，它灵活性强，界面化配置对开发者友好，底层容器化构建，集合持续化构建。
 
-
-
-JVS是“软开企服”推出的面向软件开发团队可以快速实现应用的基础开发框架
-
-**JVS的服务对象：**中小型的开发团队
-
-**JVS的核心目标：**让中小型开发团队过得轻松一点，优化开发团队人力成本高、交付效率低、质量不可控、周期不确定、基础技术投入不足、高端技术支持不够等
 
 
 
@@ -22,9 +14,9 @@ JVS是“软开企服”推出的面向软件开发团队可以快速实现应�
 
 ## **项目构成**
 
-框架前端地址：https://gitee.com/software-minister/jvs-ui
+- 框架前端地址：https://gitee.com/software-minister/jvs-ui
+- 框架后端地址：https://gitee.com/software-minister/jvs
 
-框架后端地址：https://gitee.com/software-minister/jvs
 
 ## **体验地址**
 
@@ -43,7 +35,6 @@ https://gitee.com/software-minister/jvs-docker-compose/blob/master/readme.md
 
 **物理拓扑：
 ![输入图片说明](image11.png)
-
 
 
 **技术文档地址（微信登陆可查看）：**
@@ -100,7 +91,7 @@ https://gitee.com/software-minister/jvs-docker-compose/blob/master/readme.md
 
 ## **系统部分截图：**
 
-![输入图片说明](image.png)
+![输入图片说明](image01.png)
 ![输入图片说明](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_%E5%8F%AF%E9%85%8D%E7%BD%AE%E5%8C%96%E9%A6%96%E9%A1%B5.png)
 ![输入图片说明](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_%E5%9F%BA%E7%A1%80%E4%BF%A1%E6%81%AF%E9%85%8D%E7%BD%AE.png)
 ![输入图片说明](%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.png)
