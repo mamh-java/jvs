@@ -28,7 +28,7 @@ JVS是“软开企服”推出的面向软件开发团队可以快速实现应�
 
 开源协议：详见license
 
-**体验地址：http://www.bctools.cn/#/login**
+**体验地址：http://frame.bctools.cn/#/login**
 
 登陆可以通过微信扫码登陆，对于配置数据，请各位技术同学手下留情。
 
